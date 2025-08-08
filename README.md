@@ -24,9 +24,11 @@ If you are having trouble with playsound, install wheel with pip install wheel.
 You can get this from https://api.rtt.io/. Your API Username and password is the one on the page after logging in under ***API Auth Credentials***.
 Your username should start with "rtt_" and the password will be a long string of numbers and letters.
 I do not provide my own API key, hopefully I will find a way to hide it from the end user and this section will become redundant.
-Simply replace the "none" in the username and password fields with your API username and password. 
+Simply replace the "none" in the ```username``` and ```password``` fields with your API username and password. 
 
 ## Actually using it
+```cd``` into the folder containing the files and simply run ```python twainstation.py```
+
 Once logged in it will ask for a three letter station code. To find one, go to https://www.realtimetrains.co.uk/, type in the station, and the three letter code for your station will be on the otherside of the name in gray.
 It is, however, set by default to "EDB" (Edinburgh Waverley), if you wanna change that to your local station's code, you can. I'm not going to stop you. I just set it to EDB because it's my city's main station and I didn't wanna dox myself by having my location station in the Source Code. :3c
 
