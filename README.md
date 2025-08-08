@@ -24,6 +24,7 @@ If you are having trouble with playsound, install wheel with pip install wheel.
 You can get this from https://api.rtt.io/. Your API Username and password is the one on the page after logging in under ***API Auth Credentials***.
 Your username should start with "rtt_" and the password will be a long string of numbers and letters.
 I do not provide my own API key, hopefully I will find a way to hide it from the end user and this section will become redundant.
+Simply replace the "none" in the username and password fields with your API username and password. 
 
 ## Actually using it
 Once logged in it will ask for a three letter station code. To find one, go to https://www.realtimetrains.co.uk/, type in the station, and the three letter code for your station will be on the otherside of the name in gray.
